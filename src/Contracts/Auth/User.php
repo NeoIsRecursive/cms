@@ -43,4 +43,16 @@ interface User
     public function isSuper();
 
     public function makeSuper();
+
+    public function name();
+
+    public function initials();
+
+    public function avatar($size = 64);
+
+    public function title();
+
+    public function id();
+
+    public function blueprint();
 }
